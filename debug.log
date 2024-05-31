@@ -1,0 +1,20 @@
+Task 1:
+
+    1)Import By separately.
+    2) Use XPATH, CSS Selectors to scrape dynamic content and not HTML classes/ID's.
+    3)[table-body]/tr is used to access all rows of the table's <body>
+    4)./td[1 or 2 or 3...] refer to the columns of the table for a row.
+
+Task 2:
+    1)Installing requests_html requires installing pipenv through pip.
+    2)Installing requests_html requires lxml_html_clean to be installed separately.
+    3)HTMLSession cannot run in jupyter notebooks due to an error regarding multiple instances.
+    4)Code can be simplified defining functions.
+    5)Find 'tr' tags for accessing each row.
+    6)ChatGPT suggested using 'zip' to iterate through rows and store their data under the corresponding columns.
+    7)ChatGPT suggested using a dictionary to map the pagination data to the url.
+    8)Extend (versus append) allows us to add multiple elements from an iterable (dict from scrape() in this case).
+
+Task 3:
+    1)Import Options to use headless browsers to bypass user agent detection.
+    2)The other two links require login deatils, unsure about how to scrape them.
